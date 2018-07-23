@@ -54,6 +54,5 @@ print(main(lat, lon))
 #   https://opensky-network.org/apidoc/rest.html#own-states
 #   https://en.wikipedia.org/wiki/Haversine_formula
 #   https://en.wikipedia.org/wiki/Great-circle_distance
-# To look at later:
-#   https://stackoverflow.com/questions/19412462/getting-distance-between-two-points-based-on-latitude-longitude
+
 
