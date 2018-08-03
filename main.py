@@ -1,8 +1,6 @@
 """
-    File name: test.py
+    File name: main.py
     Author: AdnHt
-    Date created: 4/20/2018
-    Date last modified: 25/05/2018
     Python Version: 3.6
 """
 
@@ -16,11 +14,13 @@
 import json
 import subprocess
 import sys
+import os
 from math import cos, asin, sqrt, pi
 
 # Checking if the requests package exit and install it
 
 package = 'requests'
+os.system('pip install --upgrade pip')
 
 try:
     __import__(package)
@@ -29,7 +29,6 @@ except ImportError:
         subprocess.call([sys.executable, '-m', 'pip', 'install', '{}'.format(package)])
     except SystemExit as e:
         pass
-
 import requests
 
 # Global vars
